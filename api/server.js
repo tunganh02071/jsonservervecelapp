@@ -3,7 +3,7 @@ const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
- const filePath = path.join("/tmp", "data.json");
+ const filePath = path.join("/tmp", "db.json");
  fs.writeFileSync(filePath, JSON.stringify(data));
 
 server.use(middlewares)
