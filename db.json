@@ -1,9 +1,374 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "users": [
+    {
+      "email": "anh@gmail.com",
+      "password": "$2a$10$LHf9tlFeAd7z9rxJnTWh8efGMsix5ctLtTfnV2KPJ.IdnQaa/THrm",
+      "phone": "0825119335",
+      "username": "admin",
+      "passwordrepeat": "1234",
+      "role": "admin",
+      "id": 2
+    },
+    {
+      "email": "anh01@gmail.com",
+      "password": "$2a$10$xXD0dP4greMz37dTSB7Ktu74F0sX8U2Q6Ov4wF9Ugsx5d27TSpyAC",
+      "phone": "0825119335",
+      "username": "1234",
+      "passwordrepeat": "1234",
+      "role": "host",
+      "id": 3
+    },
+    {
+      "email": "anh012@gmail.com",
+      "password": "$2a$10$FLWHXLvQtAq8VfbQqBV0MeFGESh138s68t9yb5aHA2tmrEzHTDjGq",
+      "phone": "0825119335",
+      "username": "12345",
+      "passwordrepeat": "1234",
+      "role": "host",
+      "id": 4
+    },
+    {
+      "email": "anh0128@gmail.com",
+      "password": "$2a$10$yvXRBWZSY5cJoorIpAepVuPIUV2plCsFFzkYkDhT/eePNX5vuOqCS",
+      "phone": "0825119335",
+      "username": "123456",
+      "passwordrepeat": "1234",
+      "role": "host",
+      "id": 5
+    },
+    {
+      "email": "anh012868@gmail.com",
+      "password": "$2a$10$uwKLwtQGNNWj.zn2b48teuF2BDTDFkAtgI9pXsSA96YJStlT22zO2",
+      "phone": "0825119335",
+      "username": "quocanh1111",
+      "passwordrepeat": "1234",
+      "role": "User",
+      "id": 6
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
+  "rooms": [
+    {
+      "id": 3,
+      "name": "Everland 3",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "3",
+      "typeroom": "apartment",
+      "location": "hanoi",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "1234"
+    },
+    {
+      "id": 4,
+      "name": "Everland 4",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "4",
+      "typeroom": "apartment",
+      "location": "hanoi",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "1234"
+    },
+    {
+      "id": 5,
+      "name": "Everland 5",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "3",
+      "typeroom": "apartment",
+      "location": "ninhbinh",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "1234"
+    },
+    {
+      "id": 7,
+      "name": "Everland 7",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "1",
+      "typeroom": "apartment",
+      "location": "ninhbinh",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "12345"
+    },
+    {
+      "id": 8,
+      "name": "Everland 8",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "3",
+      "typeroom": "apartment",
+      "location": "ninhbinh",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "12345"
+    },
+    {
+      "id": 9,
+      "name": "Everland 9",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "4",
+      "typeroom": "apartment",
+      "location": "ninhbinh",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "12345"
+    },
+    {
+      "id": 10,
+      "name": "Everland 10",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "1",
+      "typeroom": "hotel",
+      "location": "ninhbinh",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "12345"
+    },
+    {
+      "id": 11,
+      "name": "Everland 11",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "2",
+      "typeroom": "hotel",
+      "location": "laocai",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "12345"
+    },
+    {
+      "id": 12,
+      "name": "Everland 12",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "4",
+      "typeroom": "hotel",
+      "location": "laocai",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "12345"
+    },
+    {
+      "id": 13,
+      "name": "Everland 13",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "4",
+      "typeroom": "hotel",
+      "location": "laocai",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "123456"
+    },
+    {
+      "id": 14,
+      "name": "Everland 14",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "3",
+      "typeroom": "hotel",
+      "location": "laocai",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "123456"
+    },
+    {
+      "id": 15,
+      "name": "Everland 15",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "2",
+      "typeroom": "hotel",
+      "location": "laocai",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "123456"
+    },
+    {
+      "id": 16,
+      "name": "Everland 16",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "1",
+      "typeroom": "hotel",
+      "location": "laocai",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "123456"
+    },
+    {
+      "id": 17,
+      "name": "Everland 17",
+      "price": "1.256.250đ/đêm",
+      "address": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "rate": "0 sao",
+      "people": "1",
+      "typeroom": "hotel",
+      "location": "laocai",
+      "sale": 1000000,
+      "image": "https://cdn.asahiluxstay.com//uploads/small/image/asahi/resources/2021/07/07/5c7c6-1625652525122.jpg?s=aHR0cHM6Ly9tZWRpYS5keG1iLnZuL2ltYWdlL2FzYWhpL3Jlc291cmNlcy8yMDIxLzA3LzA3LzVjN2M2LTE2MjU2NTI1MjUxMjIucG5n",
+      "timeCheck": "Nhận phòng: 14:00 đến 19:00 -Trả phòng: 12:00 đến 13:00",
+      "describe": "Chào mừng đến với căn hộ của tôi. Đó là một căn hộ gần cửa hàng bách hóa Lotte và trung tâm thương mại Vincom Nguyễn Chí Thành, Hồ Thu Le, Vườn bách thú Hà Nội, .... Điều này làm cho chuyến đi của bạn thực sự dễ dàng khi ở căn hộ của tôi nằm ở trung tâm huyện Ba Đình. Căn hộ được thiết kế theo phong cách ấm cúng và thoải mái. Điều này sẽ mang lại sự thoải mái cho bạn trong căn hộ này. Nhà hàng, quán cà phê, massage, cửa hàng tiện lợi, chợ đường phố xung quanh tòa nhà. Chỗ ở Đó là toàn bộ căn hộ, nội thất đầy đủ trong phòng ngủ, phòng khách, bếp, phòng tắm, ...Trong tòa nhà có nhiều khách hàng Nhật Bản và châu Âu ở lại. Bạn sẽ tìm thấy một cảm giác ấm áp và thoải mái trong căn hộ của tôi. Quan trọng hơn, tòa nhà ở trung tâm Ba Đình, nên việc đi lại sẽ hoàn toàn dễ dàng khi bạn đến trung tâm hoặc tham quan các điểm du lịch tại Hà Nội. Chúng tôi cũng có thể cung cấp dịch vụ cho thuê xe máy để bạn đi lại trên đường phố Hà Nội, điều này sẽ giúp bạn đi lại dễ dàng. Căn hộ được trang bị đầy đủ như bạn tìm thấy trong nhà, vì vậy bạn có thể dễ dàng tìm và sử dụng đồ nội thất trong phòng. Ngoài ra, căn hộ có các thiết bị cần thiết như máy sấy tóc, điều hòa, khăn tắm, máy nước nóng, lò vi sóng, .... Hàng ngày nhân viên dọn phòng sẽ thay khăn và khăn mặt hàng ngày vào buổi sáng hoặc trưa.",
+      "convenient": [
+        "Thang máy",
+        "Lễ tân 24/7",
+        "Bãi đổ xe(miễn phí)",
+        "Dọn Phòng"
+      ],
+      "surroundingFacilities": "Nằm ngay trong trung tâm thương mại, gần với vị trí trung tâm",
+      "owner": "123456"
+    }
   ],
-  "profile": { "name": "typicode" }
+  "bookings": [
+    {
+      "name": "12345",
+      "email": "anh2@gmail.com",
+      "phone": "0825119336",
+      "checkin": "2023-02-26",
+      "checkout": "2023-02-28",
+      "nameRoom": "Everland 3",
+      "city": "hanoi",
+      "addressBooking": "Lô 22 đường Morrison, Quận Sơn Trà, Đà Nẵng",
+      "priceFormat": "2.000.000",
+      "ownerRoom": "1234",
+      "id": 1
+    }
+  ]
 }
