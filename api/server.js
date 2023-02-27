@@ -3,7 +3,17 @@ const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
- 
+const fs = require("fs");
+
+ exports.handler = function(event, context) {
+   fs.writeFile("/tmp/test.txt", "testing", function (err) {
+    if (err) {
+        context.fail("writeFile failed: " + err);
+    } else {
+        context.succeed("writeFile succeeded");
+    }
+  });
+ };
 
 server.use(middlewares)
 // Add this before server.use(router)
